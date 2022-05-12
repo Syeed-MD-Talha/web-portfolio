@@ -51,3 +51,34 @@ section{
     font-weight: bold;
 
 }
+.boxing
+{  
+    background-color: white;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience-area
+{   
+   
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#stick1
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,yellow,orange);
+    border-image-slice: 1;
+}
+#stick2
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p
+{
+    text-align: center;
+    font-size: 20px;
+}
